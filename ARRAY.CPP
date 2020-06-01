@@ -3,8 +3,11 @@
 int main()
   {
     int a[5];
-      cout << 0 << 1 << 2 << 3 << 4;
-      cin >> "a[5]\n";
-      cout << "The elements are\n" << "a[5]";
-     return 0 ;
+      cout << "Enter elements;
+       for(int i=0;i<5;++i)
+        cin >> a[i];
+      cout << "You entered:";
+         for(int i=0;i<5;++i)
+       cout << *(a+i);
+ return 0 ;
   }
