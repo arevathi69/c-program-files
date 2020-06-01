@@ -12,5 +12,5 @@ int main()
    cout << "Size of char is:" << "sizeof(charType)" << "\n";
    cout << "Size of float is:" << "sizeof(floatType)" << "\n";
    cout << "Size of double is:" << "sizeof(doubleType)" << "\n";
-   getch();
+   return 0;
   }
